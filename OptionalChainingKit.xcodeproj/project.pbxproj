@@ -21,6 +21,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		A37AD76F1FD1A878004A793A /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37AD76E1FD1A878004A793A /* String.swift */; };
+		A37AD7711FD1A883004A793A /* StringTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37AD7701FD1A883004A793A /* StringTest.swift */; };
 		OBJ_21 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_27 /* OptionalChainingKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* OptionalChainingKitTests.swift */; };
 		OBJ_29 /* OptionalChainingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "OptionalChainingKit::OptionalChainingKit::Product" /* OptionalChainingKit.framework */; };
@@ -45,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A37AD76E1FD1A878004A793A /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		A37AD7701FD1A883004A793A /* StringTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTest.swift; sourceTree = "<group>"; };
 		OBJ_12 /* OptionalChainingKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalChainingKitTests.swift; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_9 /* OptionalChainingKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalChainingKit.swift; sourceTree = "<group>"; };
@@ -83,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_12 /* OptionalChainingKitTests.swift */,
+				A37AD7701FD1A883004A793A /* StringTest.swift */,
 			);
 			name = OptionalChainingKitTests;
 			path = Tests/OptionalChainingKitTests;
@@ -120,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_9 /* OptionalChainingKit.swift */,
+				A37AD76E1FD1A878004A793A /* String.swift */,
 			);
 			name = OptionalChainingKit;
 			path = Sources/OptionalChainingKit;
@@ -208,7 +214,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				A37AD76F1FD1A878004A793A /* String.swift in Sources */,
 				OBJ_21 /* Package.swift in Sources */,
+				A37AD7711FD1A883004A793A /* StringTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
