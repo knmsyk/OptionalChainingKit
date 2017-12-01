@@ -30,9 +30,7 @@
 		A37AD7791FD1ABF2004A793A /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37AD7731FD1AA92004A793A /* Int.swift */; };
 		A37AD77A1FD1ABF2004A793A /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37AD76E1FD1A878004A793A /* String.swift */; };
 		OBJ_21 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_27 /* OptionalChainingKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* OptionalChainingKitTests.swift */; };
 		OBJ_29 /* OptionalChainingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "OptionalChainingKit::OptionalChainingKit::Product" /* OptionalChainingKit.framework */; };
-		OBJ_36 /* OptionalChainingKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* OptionalChainingKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,9 +56,7 @@
 		A37AD7721FD1AA03004A793A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A37AD7731FD1AA92004A793A /* Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
 		A37AD7751FD1AA98004A793A /* IntTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntTest.swift; sourceTree = "<group>"; };
-		OBJ_12 /* OptionalChainingKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalChainingKitTests.swift; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		OBJ_9 /* OptionalChainingKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalChainingKit.swift; sourceTree = "<group>"; };
 		"OptionalChainingKit::OptionalChainingKit::Product" /* OptionalChainingKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OptionalChainingKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"OptionalChainingKit::OptionalChainingKitTests::Product" /* OptionalChainingKitTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = OptionalChainingKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -96,7 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				A37AD7751FD1AA98004A793A /* IntTest.swift */,
-				OBJ_12 /* OptionalChainingKitTests.swift */,
 				A37AD7701FD1A883004A793A /* StringTest.swift */,
 			);
 			name = OptionalChainingKitTests;
@@ -136,7 +131,6 @@
 			isa = PBXGroup;
 			children = (
 				A37AD7731FD1AA92004A793A /* Int.swift */,
-				OBJ_9 /* OptionalChainingKit.swift */,
 				A37AD76E1FD1A878004A793A /* String.swift */,
 			);
 			name = OptionalChainingKit;
@@ -240,7 +234,6 @@
 			files = (
 				A37AD7771FD1AB41004A793A /* IntTest.swift in Sources */,
 				A37AD7781FD1AB41004A793A /* StringTest.swift in Sources */,
-				OBJ_27 /* OptionalChainingKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +243,6 @@
 			files = (
 				A37AD7791FD1ABF2004A793A /* Int.swift in Sources */,
 				A37AD77A1FD1ABF2004A793A /* String.swift in Sources */,
-				OBJ_36 /* OptionalChainingKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
