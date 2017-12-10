@@ -21,7 +21,7 @@ extension Array {
     }
     
     public var third: Element? {
-        return element(at: 1)
+        return element(at: 2)
     }
     
 }
