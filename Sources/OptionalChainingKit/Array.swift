@@ -8,20 +8,16 @@
 import Foundation
 
 extension Array {
-    
     public func element(at index: Int) -> Element? {
-        guard index < count else {
-            return nil
-        }
+        guard index < count else { return nil }
         return self[index]
     }
     
     public var second: Element? {
-        return element(at: 1)
+        element(at: 1)
     }
     
     public var third: Element? {
-        return element(at: 2)
+        element(at: 2)
     }
-    
 }
