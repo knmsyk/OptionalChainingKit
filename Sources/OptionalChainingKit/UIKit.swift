@@ -5,7 +5,8 @@
 import UIKit
 
 extension String {
-    public var uiImage: UIImage? {
+    @inlinable
+    public func uiImage() -> UIImage? {
         UIImage(named: self)
     }
 }

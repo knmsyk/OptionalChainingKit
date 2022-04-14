@@ -4,45 +4,34 @@
 
 import Foundation
 
-// MARK: AttributedString
+// MARK: - AttributedString
 
 extension String {
-    public var attributedString: NSAttributedString {
-        NSAttributedString(string: self)
+    @inlinable
+    public func attributedString(attributes attrs: [NSAttributedString.Key : Any]? = nil) -> NSAttributedString {
+        NSAttributedString(string: self, attributes: attrs)
     }
-    public var mutableAttributedString: NSMutableAttributedString {
-        NSMutableAttributedString(string: self)
+
+    @inlinable
+    public func mutableAttributedString(attributes attrs: [NSAttributedString.Key : Any]? = nil) -> NSMutableAttributedString {
+        NSMutableAttributedString(string: self, attributes: attrs)
     }
 }
 
-// MARK: URL
+// MARK: - URL
 
 extension String {
-    public var url: URL? {
-        URL(string: self)
+    @inlinable
+    public func url(relativeTo url: URL? = nil) -> URL? {
+        URL(string: self, relativeTo: url)
     }
 }
 
-// MARK: Int
+// MARK: - Int
 
-extension String {
-    public var int: Int? {
-        Int(self)
-    }
-
-    public var int8: Int8? {
-        Int8(self)
-    }
-
-    public var int16: Int16? {
-        Int16(self)
-    }
-    
-    public var int32: Int32? {
-        Int32(self)
-    }
-
-    public var int64: Int64? {
-        Int64(self)
+extension StringProtocol {
+    @inlinable
+    public func int(radix: Int = 10) -> Int? {
+        Int(self, radix: radix)
     }
 }
