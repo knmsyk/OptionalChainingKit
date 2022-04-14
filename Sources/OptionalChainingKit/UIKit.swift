@@ -1,8 +1,5 @@
 //
-//  UIKit.swift
-//  OptionalChainingKit
-//
-//  Created by msyk on 2019/12/07.
+//  Copyright © 2019 msyk. All rights reserved.
 //
 
 import UIKit

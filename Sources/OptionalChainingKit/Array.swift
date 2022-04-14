@@ -1,8 +1,5 @@
 //
-//  Array.swift
-//  OptionalChainingKitPackageDescription
-//
-//  Created by Kouno, Masayuki on 2017/12/02.
+//  Copyright © 2017 msyk. All rights reserved.
 //
 
 import Foundation
