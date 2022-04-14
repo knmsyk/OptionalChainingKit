@@ -10,3 +10,10 @@ extension BinaryInteger {
         String(self, radix: radix, uppercase: uppercase)
     }
 }
+
+extension SignedNumeric where Self: Comparable {
+    @inlinable
+    public func abs() -> Self {
+        Swift.abs(self)
+    }
+}
