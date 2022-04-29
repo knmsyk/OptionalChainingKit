@@ -18,20 +18,43 @@ extension String {
     }
 }
 
-// MARK: - URL
-
-extension String {
-    @inlinable
-    public func url(relativeTo url: URL? = nil) -> URL? {
-        URL(string: self, relativeTo: url)
-    }
-}
-
 // MARK: - Int
 
 extension StringProtocol {
     @inlinable
     public func int(radix: Int = 10) -> Int? {
         Int(self, radix: radix)
+    }
+}
+
+// MARK: - String
+
+extension Sequence where Character == Element {
+    @inlinable
+    public func string() -> String {
+        String(self)
+    }
+}
+
+extension Substring {
+    @inlinable
+    public func string() -> String {
+        String(self)
+    }
+}
+
+extension LosslessStringConvertible {
+    @inlinable
+    public func string() -> String {
+        String(self)
+    }
+}
+
+// MARK: - URL
+
+extension String {
+    @inlinable
+    public func url(relativeTo url: URL? = nil) -> URL? {
+        URL(string: self, relativeTo: url)
     }
 }

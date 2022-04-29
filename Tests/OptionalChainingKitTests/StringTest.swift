@@ -1,8 +1,4 @@
 //
-//  StringTest.swift
-//  OptionalChainingKitTests
-//
-//  Created by Kouno, Masayuki on 2017/12/01.
 //  Copyright © 2017 msyk. All rights reserved.
 //
 
