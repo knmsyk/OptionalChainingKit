@@ -17,4 +17,12 @@ final class CollectionTest: XCTestCase {
         XCTAssertEqual(array.element(at: 4), nil)
         XCTAssertEqual(array.element(at: .random(in: 4...Int.max)), nil)
     }
+
+    func test_nonEmpty() {
+        let string = ""
+        XCTAssertEqual(string.nonEmpty(), nil)
+
+        let array = [Int]()
+        XCTAssertEqual(array.nonEmpty(), nil)
+    }
 }

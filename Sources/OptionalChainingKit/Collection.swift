@@ -21,3 +21,9 @@ extension Collection {
         element(at: index(startIndex, offsetBy: 2))
     }
 }
+
+extension Collection {
+    public func nonEmpty() -> Self? {
+        isEmpty ? nil : self
+    }
+}
