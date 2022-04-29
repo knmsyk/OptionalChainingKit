@@ -2,6 +2,7 @@
 //  Copyright © 2019 msyk. All rights reserved.
 //
 
+#if os(iOS) || os(tvOS) || os(watchOS) || targetEnvironment(macCatalyst)
 import UIKit
 
 extension String {
@@ -10,3 +11,4 @@ extension String {
         UIImage(named: self)
     }
 }
+#endif
