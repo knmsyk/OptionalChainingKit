@@ -3,12 +3,12 @@
 //
 
 #if os(iOS) || os(tvOS) || os(watchOS) || targetEnvironment(macCatalyst)
-import UIKit
+    import UIKit
 
-extension String {
-    @inlinable
-    public func uiImage() -> UIImage? {
-        UIImage(named: self)
+    extension String {
+        @inlinable
+        public func uiImage() -> UIImage? {
+            UIImage(named: self)
+        }
     }
-}
 #endif

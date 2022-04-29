@@ -8,12 +8,12 @@ import Foundation
 
 extension String {
     @inlinable
-    public func attributedString(attributes attrs: [NSAttributedString.Key : Any]? = nil) -> NSAttributedString {
+    public func attributedString(attributes attrs: [NSAttributedString.Key: Any]? = nil) -> NSAttributedString {
         NSAttributedString(string: self, attributes: attrs)
     }
 
     @inlinable
-    public func mutableAttributedString(attributes attrs: [NSAttributedString.Key : Any]? = nil) -> NSMutableAttributedString {
+    public func mutableAttributedString(attributes attrs: [NSAttributedString.Key: Any]? = nil) -> NSMutableAttributedString {
         NSMutableAttributedString(string: self, attributes: attrs)
     }
 }
